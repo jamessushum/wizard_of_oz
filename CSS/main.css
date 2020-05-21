@@ -1,0 +1,82 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: darkcyan;
+}
+
+nav {
+  background-color: goldenrod;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: .2em;
+}
+
+nav a {
+  color: #7E2929;
+  margin: 3.5em;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.wrapper {
+  background-color: white;
+  margin-right: 150px;
+  margin-left: 150px; 
+  position: absolute;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: royalblue;
+
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  background-color: #FAEBD7;
+}
+
+.img-hero {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+main {
+  /* Children of flex-container can take flex element and splits size evenly betwwen other children */
+  flex: 3;
+  margin: 1em;
+}
+
+aside {
+  flex: 1;
+  margin: 1em;
+}
+
+.main-heading-color {
+  color: #B21C0E;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+footer a {
+  color: goldenrod;
+}
+
