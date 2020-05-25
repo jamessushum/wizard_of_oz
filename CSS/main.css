@@ -14,14 +14,12 @@ nav {
   background-color: goldenrod;
   display: flex;
   width: 100%;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: .2em;
+  justify-content: space-evenly;
+  padding: .5em;
 }
 
 nav a {
   color: #7E2929;
-  margin: 3.5em;
 }
 
 nav a:hover {
@@ -39,7 +37,6 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   color: royalblue;
-
 }
 
 .flex-container {
@@ -66,7 +63,6 @@ h1 {
 }
 
 main {
-  /* Children of flex-container can take flex element and splits size evenly betwwen other children */
   flex: 3;
   margin: 1em;
 }
