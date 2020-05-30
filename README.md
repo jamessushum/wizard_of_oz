@@ -1,8 +1,7 @@
 # Wizard_of_Oz
 
-Exercise in HTML/CSS building a Wizard of Oz themed site with functioning navigation bar.
-- Currently only the Dorothy and Witches pages are linked.
+Wizard of Oz is a project site using HTML and CSS.
 
-Key Highlights:
-* CSS flexbox 
-* HTML hyperlinks
+## Project Status
+
+Project is currently in progress.
